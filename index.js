@@ -41,18 +41,20 @@ import './style.css';
 
 //////////////////////////////////////
 
-let img = document.querySelector('#img');
-let link = document.querySelector('#link');
-let name = document.querySelector('#name');
-let generate = document.querySelector('#generate');
+// let img = document.querySelector('#img');
+// let link = document.querySelector('#link');
+// let name = document.querySelector('#name');
+// let generate = document.querySelector('#generate');
 
-generate.addEventListener('click', () => {
-  fetch('https://api.github.com/users')
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data);
-      data.forEach((element, index) => {
-        name.innerHTML = `Img : <img src="${data[index].avatar_url}"> <br> Name : ${data[index].name} <br> Url : <a href="${data[index].html_url}">Link</a> <br> `;
-      });
-    });
-});
+// generate.addEventListener('click', () => {
+//   fetch('https://api.github.com/users')
+//     .then((res) => res.json())
+//     .then((data) => {
+//       console.log(data);
+//       data.forEach((element, index) => {
+//         name.innerHTML = `Img : <img src="${data[index].avatar_url}"> <br> Name : ${data[index].name} <br> Url : <a href="${data[index].html_url}">Link</a> <br> `;
+//       });
+//     });
+// });
+
+/////////////////////////////
