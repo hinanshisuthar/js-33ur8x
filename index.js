@@ -52,7 +52,7 @@ generate.addEventListener('click', () => {
     .then((data) => {
       console.log(data);
       data.forEach((element, index) => {
-        name.innerHTML = `Img : <img src="${data[index].avatar_url}"> <br> Name : ${data[index].name} <br> Url : <a href="${data[index].html_url}">Link</a>  `;
+        name.innerHTML = `Img : <img src="${data[index].avatar_url}"> <br> Name : ${data[index].name} <br> Url : <a href="${data[index].html_url}">Link</a> <br> `;
       });
     });
 });
