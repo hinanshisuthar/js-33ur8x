@@ -58,3 +58,14 @@ import './style.css';
 // });
 
 /////////////////////////////
+
+// let buttons = document.querySelectorAll('.button');
+// let inputText = document.querySelector('#input');
+// let outputDiv = document.querySelector('#output');
+// buttons.forEach((btn) => {
+//   btn.addEventListener('click', doTask);
+// });
+
+// function doTask(e) {
+//   outputDiv.innerHTML = `<${e.target.innerHTML}> ${inputText.value} <${e.target.innerHTML}/>`;
+// }
